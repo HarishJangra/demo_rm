@@ -109,8 +109,8 @@ android {
         applicationId "com.rm_hj"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.02"
     }
 
      signingConfigs {
@@ -123,6 +123,10 @@ android {
             }
         }
     }
+
+    def appname = "ROCKET_MEDIA_DEMO"
+
+
     splits {
         abi {
             reset()
@@ -137,6 +141,16 @@ android {
 
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+
+             //OUTPUT APK TO CUSTOM DIR AND WITH CUSTOM NAME
+              applicationVariants.all { variant ->
+                variant.outputs.all { output ->
+                        def relativeRootDir = output.packageApplication.outputDirectory.toPath()
+                                .relativize(rootDir.toPath()).toFile()
+                        output.outputFileName = new File( "$relativeRootDir/release", appname+ "-" + defaultConfig.versionName + ".apk" )
+                    }
+            }
+
         }
     }
     // applicationVariants are e.g. debug, release
