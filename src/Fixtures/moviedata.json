@@ -1,0 +1,47 @@
+{
+    "name":"Tangled",
+    "year_released" : "2010",
+    "age_restriction":"7+",
+    "playtime": "1h 40m",
+    "banner":"https://contentserver.com.au/assets/566013_p8033989_p_v8_aa.jpg",
+    "trailer":{
+        "name":"Tangled - Trailer",
+        "length":"4 m"
+    },
+    "teasers":[      
+        {
+            "name":"Tangled - I see the light (HD)",
+            "user":"archibuild",
+            "release_time":"7 years ago",
+            "views": 6,
+            "id":1,
+            "banner":"https://i.ytimg.com/vi/chppF5jqKNw/maxresdefault.jpg"
+        },
+        {
+            "name":"Tangled - Kingdom dance (HD)",
+            "user":"makeshiilm",
+            "release_time":"7 years ago",
+            "views": 70,
+            "id":2,
+            "banner":"https://i.ytimg.com/vi/je4nDvNJXsg/maxresdefault.jpg"
+        },
+        {
+            "name":"Tangled - Out of Tower song",
+            "user":"Disney Vocals",
+            "release_time":"8 years ago",
+            "views": 4,
+            "id":3,
+            "banner":"https://i.ytimg.com/vi/chppF5jqKNw/maxresdefault.jpg"
+        },
+        {
+            "name":"Tangled - When Will My Life Begin (HD)",
+            "user":"archibuild",
+            "release_time":"9 years ago",
+            "views": 5,
+            "id":4,
+            "banner":"https://ohmy.disney.com/wp-content/uploads/2014/08/Rapunzel-and-Flynn-Falling-in-Love-is-Amazing-Tangled-4.png"
+        }
+       
+    ]
+
+}
