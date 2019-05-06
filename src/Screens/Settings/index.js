@@ -23,13 +23,13 @@ const SettingScreen = (props) => {
     }));
     
     const _logout = () => {
-        Alert.alert("Confirm logout ","Please confirm logging out of the app",[
+        Alert.alert("Confirm logout ","Are you sure you want to logout. ",[
             {
                 style:'cancel',
-                text:'Cancel',                
+                text:'Not now',                
             },
             {
-                text:'OK',
+            text:'Yes for sure',
                 onPress:logout
             }
         ])

@@ -5,9 +5,6 @@
  * @format
  * @flow
  */
-import _ from "lodash";
-global._ = _;
-
 import React from "react";
 import Root from "./App";
 

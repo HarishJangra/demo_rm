@@ -6,6 +6,8 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "android": "react-native run-android",
     "clean:debug": "cd android/ && ./gradlew clean && cd .. && react-native run-android",
+    "android:build": "cd android && ./gradlew assembleRelease",
+    "clean:build": "cd android/ && ./gradlew clean &&  ./gradlew assembleRelease",
     "test": "jest"
   },
   "dependencies": {

@@ -1,0 +1,6 @@
+
+#  ***store***
+
+* For storing globally
+
+  
